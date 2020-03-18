@@ -1,10 +1,10 @@
 provider "google" {
   credentials = file("account.json")
-  project     = "cloudglobaldelivery-1000135575 "
+  project     = "cloudglobaldelivery-1000135575"
   region      = "us-central1"
 }
 
-resource "google_compute_instance" "default" {
+resource "google_compute_instance" "default1" {
   name         = "test-a1"
   machine_type = "n1-standard-1"
   zone         = "us-central1-a"
