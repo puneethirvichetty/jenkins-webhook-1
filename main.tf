@@ -3,7 +3,6 @@ provider "google" {
   project     = "cloudglobaldelivery-1000135575 "
   region      = "us-central1"
 }
-#d
 
 resource "google_compute_instance" "default" {
   name         = "test-a"
