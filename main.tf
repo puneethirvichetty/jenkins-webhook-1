@@ -33,8 +33,8 @@ resource "google_compute_instance" "default1" {
 }
 }
 
-resource "google_compute_instance" "default" {
-  name         = "test-a"
+resource "google_compute_instance" "default2" {
+  name         = "test-a2"
   machine_type = "n1-standard-1"
   zone         = "us-central1-a"
 
